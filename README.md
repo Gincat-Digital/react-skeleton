@@ -2,6 +2,20 @@
 
 This project structure is a skeleton used as a template for projects within the Gincat Digital organization. It helps organize the codebase in a clear and maintainable manner, separating concerns and improving code readability and scalability.
 
+## Features
+
+- **Storybook**: Allows for interactive component development and testing.
+- **i18n**: Supports internationalization for multi-language support.
+- **MSW (Mock Service Worker)**: Enables mocking of API requests for testing.
+- **Webpack**: Bundles and optimizes project assets for production.
+- **Plop**: Facilitates the generation of boilerplate code.
+- **ESLint**: Lints code for consistent style and error detection.
+- **Prettier**: Automatically formats code to maintain consistent style across the project.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: Adds static typing to JavaScript for improved code reliability and developer experience.
+- **SASS**: Provides CSS preprocessing with variables, mixins, and more for enhanced styling capabilities.
+
+
 ## Folder Structure
 
 - **.msw/**: Houses configurations for the mock API, see [MSW documentation](https://v1.mswjs.io/) for more.
