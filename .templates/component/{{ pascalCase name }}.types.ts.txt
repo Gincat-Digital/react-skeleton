@@ -1,0 +1,3 @@
+import type { AbstractProps } from '@/types/component/AbstractProps';
+
+export type {{ pascalCase name }}Props = {} & AbstractProps;

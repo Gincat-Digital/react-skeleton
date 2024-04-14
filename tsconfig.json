@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"rootDir": "./",
+		"baseUrl": "./",
+		"jsx": "react",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"strictNullChecks": true,
+		"allowSyntheticDefaultImports": true,
+		"noEmit": true,
+		"paths": {
+			"@/*": ["src/*"],
+			"@.msw/*": [".msw/*"],
+			"@.scripts/*": [".scripts/*"],
+			"@.storybook/*": [".storybook/*"],
+			"@.webpack/*": [".webpack/*"],
+			"@mocks/*": ["mocks/*"]
+		},
+	},
+	"include": [
+		".msw/**/*",
+		".webpack/**/*",
+		".storybook/**/*",
+		".scripts/**/*",
+		"mocks/**/*",
+		"src/**/*",
+	],
+	"exclude": [
+		"node_modules",
+		"dist/**/*",
+		"templates/**/*",
+	]
+}

@@ -1,0 +1,20 @@
+import React, { createContext } from 'react';
+import type { ReactElement } from 'react';
+import type {
+	{{ pascalCase name }}ContextValue,
+	{{ pascalCase name }}ProviderProps,
+} from './{{ pascalCase name }}Context.types';
+
+const defaultValue: {{ pascalCase name }}ContextValue = {};
+
+export const {{ pascalCase name }}Context = createContext(defaultValue);
+
+export const {{ pascalCase name }}Provider = (
+	props: {{ pascalCase name }}ProviderProps,
+): ReactElement => {
+	return (
+		<{{ pascalCase name }}Context.Provider value={defaultValue}>
+			{props.children}
+		</{{ pascalCase name }}Context.Provider>
+	);
+};

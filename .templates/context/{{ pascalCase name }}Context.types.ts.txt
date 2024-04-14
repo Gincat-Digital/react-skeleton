@@ -1,0 +1,5 @@
+import type { AbstractProps } from '@/types/component/AbstractProps';
+
+export type {{ pascalCase name }}ContextValue = {};
+
+export type {{ pascalCase name }}ProviderProps = {} & Pick<AbstractProps, 'children'>;

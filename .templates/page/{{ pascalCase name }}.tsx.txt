@@ -1,0 +1,12 @@
+import type { ReactElement } from 'react';
+import React from 'react';
+
+export const {{ pascalCase name }} = (): ReactElement => {
+	return (
+		<>
+			<main>
+				This is <pre>{{ kebabCase name }}</pre> page.
+			</main>
+		</>
+	);
+};

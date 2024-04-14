@@ -1,0 +1,3 @@
+import type { {{ pascalCase name }}Props } from './{{ pascalCase name }}.types';
+
+export const {{ camelCase name }}DefaultMocks: {{ pascalCase name }}Props = {};
