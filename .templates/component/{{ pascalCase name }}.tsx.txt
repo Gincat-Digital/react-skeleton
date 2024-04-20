@@ -7,5 +7,10 @@ import { className } from '@/utils/component/class-name';
 import './{{ pascalCase name }}.scss';
 
 export const {{ pascalCase name }} = (props: {{ pascalCase name }}Props): ReactElement => {
-	return <div {...getAbstractProps(props)} {...className('{{ kebabCase name }}')}></div>;
+	return (
+		<div
+			{...getAbstractProps(props)}
+			{...className('cmp-{{ kebabCase name }}', props.className)}
+		></div>
+	);
 };
