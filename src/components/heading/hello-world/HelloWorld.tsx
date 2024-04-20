@@ -13,7 +13,10 @@ export const HelloWorld = (props: HelloWorldProps): ReactElement => {
 	const { t } = useTranslation(LocalesNS.Global);
 
 	return (
-		<h1 {...getAbstractProps(props)} {...className('hello-world')}>
+		<h1
+			{...getAbstractProps(props)}
+			{...className('cmp-hello-world', props.className)}
+		>
 			{t(globalLocales.helloWorld, { name: props.name })}
 		</h1>
 	);
