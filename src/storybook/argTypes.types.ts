@@ -4,4 +4,5 @@ export type Category =
 	| 'accesibility'
 	| 'action'
 	| 'state'
+	| 'template'
 	| 'other';

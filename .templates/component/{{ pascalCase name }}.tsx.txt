@@ -2,8 +2,8 @@ import type { ReactElement } from 'react';
 import type { {{ pascalCase name }}Props } from './{{ pascalCase name }}.types';
 import React from 'react';
 import { BEM } from '@/utils/bem/BEM';
-import { getAbstractProps } from '@/utils/component/get-abstract-props';
-import { className } from '@/utils/component/class-name';
+import { getAbstractProps } from '@/utils/component/getAbstractProps';
+import { className } from '@/utils/component/className';
 
 import './{{ pascalCase name }}.scss';
 
