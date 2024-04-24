@@ -1,19 +1,16 @@
 import type { ReactElement } from 'react';
-import type { {{ pascalCase name }}Props } from './{{ pascalCase name }}.types';
 import React from 'react';
-import { BEM } from '@/utils/bem/BEM';
+import type { {{ pascalCase name }}Props } from './{{ pascalCase name }}.types';
 import { getAbstractProps } from '@/utils/component/get-abstract-props';
 import { className } from '@/utils/component/class-name';
 
 import './{{ pascalCase name }}.scss';
 
 export const {{ pascalCase name }} = (props: {{ pascalCase name }}Props): ReactElement => {
-	const CMP = new BEM('cmp-{{ kebabCase name }}');
-
 	return (
 		<div
 			{...getAbstractProps(props)}
-			{...className(CMP.root(), props.className)}
+			{...className('cmp-{{ kebabCase name }}', props.className)}
 		></div>
 	);
 };

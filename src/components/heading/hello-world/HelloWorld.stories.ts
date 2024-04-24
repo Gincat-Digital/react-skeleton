@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { abstractArgTypes } from '@/storybook/argTypes.collections';
-import { argTypeCategory, requiredArgType } from '@/storybook/argTypes.utils';
+import { abstractArgTypes } from '@/storybook/arg-types.collections';
+import { argTypeCategory, requiredArgType } from '@/storybook/arg-types.utils';
 import { HelloWorld } from './HelloWorld';
 import { helloWorldDefaultMocks } from './HelloWorld.mocks';
 

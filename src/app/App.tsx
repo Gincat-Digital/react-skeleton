@@ -3,7 +3,7 @@ import type { ReactElement } from 'react';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
-import { enableMockApi } from '@/utils/api/enableMockApi';
+import { enableMockApi } from '@/utils/api/enable-mock-api';
 
 // Localization with i18next
 import '@/i18next/i18next';

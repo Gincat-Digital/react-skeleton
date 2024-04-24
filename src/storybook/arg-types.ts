@@ -1,6 +1,6 @@
 /* eslint-disable max-lines */
 import type { InputType } from '@storybook/types';
-import { argTypeCategory } from './argTypes.utils';
+import { argTypeCategory } from './arg-types.utils';
 
 export const role: InputType = {
 	...argTypeCategory('accesibility'),
