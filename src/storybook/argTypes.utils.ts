@@ -1,6 +1,6 @@
 import type { InputType } from '@storybook/types';
 import { isObject } from 'lodash';
-import type { Category } from './arg-types.types';
+import type { Category } from './argTypes.types';
 
 export const argTypeCategory = (name: Category): Pick<InputType, 'table'> => ({
 	table: {
